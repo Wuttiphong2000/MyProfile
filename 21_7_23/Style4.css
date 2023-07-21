@@ -1,0 +1,31 @@
+.login-form button:hover {
+    background: #019e6a;
+}
+
+.login-form a {
+    color:#019e6a;
+    font-size: 0.9rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: all 0, 3s;
+}
+
+.login-form a:hover {
+    color: #007850;
+}
+
+@keyframes rotate {
+    100%{
+        background-position: 15% 50%;
+    }
+}
+
+@media (width >=500px) {
+    body {
+        .login-card {
+            margin: 0;
+            width: 400px;
+        }
+    }
+}
